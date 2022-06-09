@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+body{
+    background-color: bisque;
+}
+
+.Main-Header{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bilbo', sans-serif;
+    margin-bottom: 20px;
+}
+
+.Chef-gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.Description, .Recipes{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Joan', sans-serif;
+    padding: 20px;
+}
+
+.Description.Recipes{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 410px;
+    margin-right: 410px;
+    font-weight: bold;
+}
+
+.Recipes{
+    font-size: 50px;
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
