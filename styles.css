@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bilbo&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: bisque;
 }
@@ -16,21 +22,24 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
 }
 
-.Description, .Recipes{
+.Description{
     text-align: center;
     font-size: 40px;
     font-weight: lighter;
     font-family: 'Joan', sans-serif;
+    margin-bottom: 30px;
     padding: 20px;
 }
 
 .Description.Recipes{
     border-style: solid;
+    border-color: black;
     border-radius: 10px;
     border-width: 4px;
     margin-left: 410px;
@@ -38,10 +47,26 @@ body{
     font-weight: bold;
 }
 
-.Recipes{
+.Container-Recipes{
     font-size: 50px;
-    list-style: none;
-    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#Recipes-list{
+    display: flex;
+    list-style: none;
+}
+
+.Recipe{
+    /* Goes from Content -> Padding -> Border -> Margin*/
+    width: 400px;
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: auto;
+    font-size: large;
+    text-align: center;
 }
