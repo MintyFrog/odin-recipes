@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.FoodTitle{
+    background-color: azure;
+    width: fit-content;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.FoodImage{
+    margin-left: 720px;
+    margin-bottom: 30px;
+}
+
+.FoodDescription{
+    background-color: azure;
+    width: fit-content;
+    font-size: 20px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ContentBlock1{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 400px;
+    display: inline-block;
+}
+
+.ContentBlock2{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.IngredientsTitle, .IngredientsList{
+    padding: 20px;
+    margin: 20px;
+}
+
+.StepsTitle, .StepsList{
+    padding: 20px;
+    margin: 20px;
+}
+
+.BackLink{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
