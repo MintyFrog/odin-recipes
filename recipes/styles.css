@@ -31,12 +31,16 @@ body {
     margin-left: auto;
 }
 
+.Center{
+    text-align: center;
+
+}
+
 .ContentBlock1{
     width: 500px;
     background-color: aliceblue;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 400px;
     display: inline-block;
 }
 
@@ -44,7 +48,6 @@ body {
     width: 500px;
     background-color: aliceblue;
     padding: 20px;
-    margin-left: 40px;
     margin-top: 20px;
     display: inline-block;
 }
